@@ -7,3 +7,6 @@ def index(request):
 
     }
     return render(request,template,context)
+
+def lekerdezes(request, valasz):
+    print(valasz) 
